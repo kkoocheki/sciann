@@ -21,7 +21,7 @@ __Arguments__
     The `Functional` object that Data condition
     will be imposed on.
 - __name__: String.
-    A `str` for name of the pde.
+    A `str` for name of the data condition.
 
 __Returns__
 
@@ -75,12 +75,12 @@ __Arguments__
 - __cond2__: Functional.
     A 'Functional' object to be tied to cond1.
 - __name__: String.
-    A `str` for name of the pde.
+    A `str` for name of the tie constraint.
 
 __Returns__
 
 
 __Raises__
 
-- __ValueError__: 'pde' should be a functional object.
+- __ValueError__: 'cond1' and 'cond2' should be functional objects.
     
