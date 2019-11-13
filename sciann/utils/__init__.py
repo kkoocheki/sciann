@@ -7,6 +7,7 @@ from __future__ import print_function
 from . import math
 from . import utilities
 from . import validations
+from . import find_neighbors
 
 from .utilities import *
 from .validations import *
